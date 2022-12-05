@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="单位符号">
+    <title>单位符号</title>
+    <para>
+      技术文档中使用单位符号建议遵循以下规范。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          为避免指代不明，<emphasis role="strong">建议用汉字名称代替单位符号</emphasis>，如毫米代替
+          mm、小时代替 h、分钟代替 min。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis role="strong">大多数情况下，数值与单位符号之间需要空一个半角空格</emphasis>，如
+          7 kg、8 MB、10 GB。但有几种例外：
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              单位是角度、摄氏度或百分号时，数值和单位之间不空格。如：60°、37°C、100%
+              等。
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              单位是英尺符号和英寸符号时，数值和单位之间不空格。如：4′5″
+              表示 4 英尺 5 英寸。注意，英尺符号为
+              <literal>′</literal>（<link xlink:href="https://www.compart.com/en/unicode/U+2032">U+2032
+              Prime</link>），英寸符号为
+              <literal>″</literal>（<link xlink:href="https://www.compart.com/en/unicode/U+2033">U+2033
+              Double Prime</link>）。
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </section>
+</article>

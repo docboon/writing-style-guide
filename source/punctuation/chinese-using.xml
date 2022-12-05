@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="中文标点使用">
+    <title>中文标点使用</title>
+    <para>
+      使用中文标点符号建议遵循以下规范。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          <emphasis role="strong">中文语境下的标点符号一律使用全角形式（即中文输入法下的标点符号）</emphasis>，不得使用半角形式（即英文输入法下的标点符号）。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis role="strong">中文全角标点符号两旁禁止空半角空格</emphasis>。示例：
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              【错误示例】如果 CPU 设有限额 （从 K8S 指定的上限）
+              ，则需要手动调整。
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              【正确示例】如果 CPU 设有限额（从 K8S
+              指定的上限），则需要手动调整。
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+      <listitem>
+        <para>
+          句号、问号、叹号、逗号、顿号、分号、冒号、结束引号、结束括号等标点不能出现在一行的开头。
+        </para>
+        <itemizedlist>
+          <listitem>
+            <para>
+              【错误示例】
+            </para>
+            <programlisting>
+排版时注意某些
+符号不能在行首
+，别弄错了。
+</programlisting>
+          </listitem>
+          <listitem>
+            <para>
+              【正确示例】
+            </para>
+            <programlisting>
+排版时注意某些
+符号不能在行首，
+别弄错了。
+</programlisting>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+      <listitem>
+        <para>
+          开始引号、开始括号、开始双书名号等标点不能出现在一行的结尾。
+        </para>
+        <itemizedlist>
+          <listitem>
+            <para>
+              【错误示例】
+            </para>
+            <programlisting>
+她对我们说：“
+这书太赞了。”
+</programlisting>
+          </listitem>
+          <listitem>
+            <para>
+              【正确示例】
+            </para>
+            <programlisting>
+她对我们说：
+“这书太赞了。”
+</programlisting>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </section>
+</article>

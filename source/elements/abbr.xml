@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="缩略语">
+    <title>缩略语</title>
+    <para>
+      中文技术文档中的缩略语有两种：汉语缩略语和英语缩略语。下文分别介绍了两者的概念、特点及使用规范。
+    </para>
+    <section xml:id="汉语缩略语">
+      <title>汉语缩略语</title>
+      <para>
+        汉语缩略语是由较长的中文语词缩短省略而成的语词，如“人大”、<quote>重启</quote>、<quote>停机</quote>、<quote>绑核</quote>等。
+      </para>
+      <para>
+        由于汉语缩略语一般数量较少、含义明确，在技术文档中只要保证该缩略语通俗易懂、不造成歧义，原则上不限制使用次数。如果某词在文档中必须大量使用，但其缩略语不常见，建议在该词第一次出现时说明情况，提示读者下文中将以缩略语的形式称呼该词。
+      </para>
+    </section>
+    <section xml:id="英语缩略语">
+      <title>英语缩略语</title>
+      <para>
+        英语缩略语数量巨大、种类繁多，出现在中文技术文档中的主要有三种：首字母缩略词
+        (acronym)、字母词 (initialism) 和缩写词 (shortened word)
+        。三者的区别是：
+      </para>
+      <itemizedlist>
+        <listitem>
+          <para>
+            首字母缩略词：由每个词的首字母组成，以词的形式发音。
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                【示例】NATO 代表 North Atlantic Treaty Organization
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>
+            字母词：也是由每个词的首字母组成，但按字母逐字发音。
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                【示例】FBI 代表 Federal Bureau of Investigation
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>
+            缩写词：由较长的中文语词缩短省略而成的语词。
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                【示例】App 代表 Application；demo 代表 demonstration
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+      <para>
+        在技术文档中使用英语缩略语建议遵循以下规范。
+      </para>
+      <itemizedlist spacing="compact">
+        <listitem>
+          <para>
+            不建议在标题中解释英文缩略语，以免造成标题冗长。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            建议在正文中第一次出现缩略语的地方解释其完整含义。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            某词用缩略语进行代称时，必须在该词第一次出现时说明情况，提示读者下文中将以缩略语的形式称呼该词。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            禁止使用不规范的缩略语，例如，用“16c32g”表示“16 核、32
+            GB”；用“10w”表示 10 万。
+          </para>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+</article>

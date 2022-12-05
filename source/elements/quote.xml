@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="引用">
+    <title>引用</title>
+    <para>
+      技术文档中使用引用建议遵循以下规范。
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          当某内容在其他地方已经详细描述过、不适合在正文中再次介绍时，可以使用引用。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          对于必须引用但内容很少（少于 100
+          字）的情况，建议直接在该处重新描述一遍。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          必须保证引用的位置准确。
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      技术文档中引用第三方内容建议遵循以下规范。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          引用他人的语句时，应注明出处。
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              【示例】One man’s constant is another man’s variable. —
+              Alan Perlis
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+      <listitem>
+        <para>
+          全篇转载时，应在全文开头显著位置注明作者和出处，并链接至原文。
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              【示例】本文转载自 WikiQuote
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+      <listitem>
+        <para>
+          使用外部图片时，必须在图片下方或文末标明来源。
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              【示例】本文部分图片来自 Wikipedia
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </section>
+</article>

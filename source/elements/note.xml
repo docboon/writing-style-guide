@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="注意和说明">
+    <title>注意和说明</title>
+    <para>
+      注意和说明内容在技术文档中起强调作用。技术文档中使用注意和说明建议遵循以下规范。
+    </para>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          根据提示内容的级别和分类使用不同的文字描述。例如，分类可以包括“危险”、<quote>警告</quote>、<quote>小心</quote>、<quote>注意</quote>、<quote>说明</quote>、<quote>建议</quote>、<quote>举例</quote>、<quote>错误</quote>等。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          注意和说明中不能包含表格和图形。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          注意和说明的内容不能过长，建议不要超过 4 行。
+        </para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</article>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="中英文混用时标点符号用法">
+    <title>中英文混用时标点符号用法</title>
+    <para>
+      中文技术文档中有时会出现英文，此时，不仅会使用全角形式的中文标点，也可能使用半角形式的英文标点，因此在中英文混用时应着重注意标点符号的用法。
+    </para>
+    <para>
+      本节介绍中英文交接处使用标点符号的建议规范。
+    </para>
+    <section xml:id="根本原则">
+      <title>根本原则</title>
+      <para>
+        中文技术文档主要服务的是中文文本，应该<emphasis role="strong">以中文标点符号为主</emphasis>，以英文标点符号为辅。
+      </para>
+    </section>
+    <section xml:id="基本规范">
+      <title>基本规范</title>
+      <orderedlist numeration="arabic">
+        <listitem>
+          <para>
+            中文句子内夹用英文单词或词组时：
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                夹用的英文单词或词组可不用中文引号包裹。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <emphasis role="strong">如果夹用的英文单词或词组本身带有英文标点，保留其英文标点</emphasis>。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                中文句子句末均以中文标点符号结尾。
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>
+            中文句子内夹用英文句子时：
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                用中文引号包裹引用该英文句子。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <emphasis role="strong">如果夹用的英文句子本身带有英文标点，保留其英文标点</emphasis>。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                中文句子句末均以中文标点符号结尾。
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </orderedlist>
+      <para>
+        基于上面的基本规范，下表给出不同标点符号用法的例句：
+      </para>
+      <informaltable>
+        <tgroup cols="3">
+          <colspec colwidth="12*" align="left" />
+          <colspec colwidth="48*" align="left" />
+          <colspec colwidth="38*" align="left" />
+          <thead>
+            <row>
+              <entry>
+                标点符号
+              </entry>
+              <entry>
+                【中文句子内夹用英文单词或词组时】标点用法例句
+              </entry>
+              <entry>
+                【中文句子内夹用英文句子时】标点用法例句
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                句号
+              </entry>
+              <entry>
+                - change 和 transform 意义不同。<br />- 建议叫上 Jane。
+              </entry>
+              <entry>
+                - <quote>I like you.（我喜欢你。）</quote>与“I love
+                you.（我爱你。）”的份量不一样。<br />- 他说的是“Jane,
+                you can do it.”。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                逗号
+              </entry>
+              <entry>
+                这个数据库的官方描述是“open-source, distributed SQL
+                database”。
+              </entry>
+              <entry>
+                他们的官方文档上写着“Try it out, and you will get a 10%
+                discount.”。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                问号
+              </entry>
+              <entry>
+                distributed SQL 在这里是什么意思？
+              </entry>
+              <entry>
+                他伸出手说“Need a hand?”，这句话的意思是“Do you need
+                help?”？
+              </entry>
+            </row>
+            <row>
+              <entry>
+                叹号
+              </entry>
+              <entry>
+                不要总是对女孩说“Pretty!”！
+              </entry>
+              <entry>
+                他站在那，感叹了句“What a beautiful scene!”。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                顿号
+              </entry>
+              <entry>
+                be 动词包括 is、are、were、was 等。
+              </entry>
+              <entry>
+                <quote>He is man.</quote>、<quote>He is a
+                man.</quote>和“He is the man”的区别是什么？
+              </entry>
+            </row>
+            <row>
+              <entry>
+                分号
+              </entry>
+              <entry>
+                如果想表示更礼貌的语气，用 might；反之，用 may。
+              </entry>
+              <entry>
+                官方文档上说“To deploy the database, use the TiUP tool;
+                to migrate data, use the DM tool.”。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                冒号
+              </entry>
+              <entry>
+                - 官网有个首页按钮失效了：Newsletter。<br />- TiDB: The
+                Future of Databases 是一篇主题分享博客。
+              </entry>
+              <entry>
+                - 文档站的右上角写着：Try it now。<br />- Bilibili: How
+                We Use a Distributed SQL Database 是一篇案例分享。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                引号
+              </entry>
+              <entry>
+                将来时态一般由“will + 动词原形”组成。
+              </entry>
+              <entry>
+                这篇文章里有句话比较难理解：<quote>The saint said,
+                <quote>Follow your fear.</quote></quote>。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                破折号
+              </entry>
+              <entry>
+                这个符号表示禁止——stop。
+              </entry>
+              <entry>
+                <quote>Well—emm, I don’t know how to say—but I hope you
+                can understand my position.</quote>他纠结地说。
+              </entry>
+            </row>
+            <row>
+              <entry>
+                省略号
+              </entry>
+              <entry>
+                使用 so…that… 句型表示结果，意思是“如此……以致……”。
+              </entry>
+              <entry>
+                <quote>I don’t know how to say
+                this…</quote>的意思是“我不知道该怎么说了……”。
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+    <section xml:id="补充规范">
+      <title>补充规范</title>
+      <para>
+        除了两条基本规范外，本节介绍一些补充规范。
+      </para>
+      <section xml:id="英文标题或引文中的结尾符号">
+        <title>英文标题或引文中的结尾符号</title>
+        <itemizedlist>
+          <listitem>
+            <para>
+              <emphasis role="strong">英文标题或引文中的结尾问号必须保留</emphasis>
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  【示例一】这篇文档的标题“How to Migrate Data from
+                  MySQL?”可以改为“How Do You Migrate Data from MySQL?”。
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【示例二】这个推文的第一句“Why do you migrate data
+                  from MySQL?”问得不够清楚。
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+          <listitem>
+            <para>
+              <emphasis role="strong">英文标题或引文中的结尾叹号必须保留</emphasis>
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  【示例一】<quote>A little book of
+                  language!</quote>一文受到了很多好评。
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【示例二】<quote>加勒比海盗</quote>的电影中的海盗总是说“Aye!
+                  Aye!”。
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+      <section xml:id="中英文括号的使用">
+        <title>中英文括号的使用</title>
+        <para>
+          中英文混用时使用括号<emphasis role="strong">建议</emphasis>遵循以下规范。
+        </para>
+        <itemizedlist>
+          <listitem>
+            <para>
+              <emphasis role="strong">括号里全为英文时</emphasis>建议使用半角括号，并在括号前后各空一个半角空格，括号和括号内的英文之间不需要空格。
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  【错误示例一】数据定义语言（DDL）是一种……（使用了全角括号）
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【错误示例二】数据定义语言(DDL)是一种……（半角括号前后未空格）
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【错误示例三】数据定义语言 ( DDL )
+                  是一种……（半角括号和半角括号内的英文之间空了一格）
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【正确示例】数据定义语言 (DDL) 是一种……
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+          <listitem>
+            <para>
+              <emphasis role="strong">括号里既有中文又有英文（即只要括号内包含任何中文）时</emphasis>建议使用全角括号，括号前后不空格。
+            </para>
+            <itemizedlist spacing="compact">
+              <listitem>
+                <para>
+                  【错误示例】斜杠 (slash 或 forward slash) 和反斜杠
+                  (backslash) 是两种符号。
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  【正确示例】斜杠（slash 或 forward slash）和反斜杠
+                  (backslash) 是两种符号。
+                </para>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </itemizedlist>
+      </section>
+      <section xml:id="英文书籍报刊标题的引用方法">
+        <title>英文书籍、报刊、标题的引用方法</title>
+        <itemizedlist>
+          <listitem>
+            <para>
+              中文句子中夹用英文书籍或报刊名时，不能使用中文书名号《》，而应使用斜体字表示，如果无法使用斜体字，建议使用中文引号包裹引用。
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              英文文章的标题用中文引号包裹引用。
+            </para>
+          </listitem>
+        </itemizedlist>
+        <para>
+          【示例】<emphasis>New York Times</emphasis>
+          发布了一篇新文章，标题是“Cloud is Eating the World”。
+        </para>
+      </section>
+    </section>
+  </section>
+</article>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article>
+<article
+  xmlns="http://docbook.org/ns/docbook" version="5.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <info>
+    <title></title>
+  </info>
+  <section xml:id="拼写">
+    <title>拼写</title>
+    <para>
+      中文技术文档既包含中文内容，也可能包含英文内容，因此应严格避免以下几种拼写错误。
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          简体中文和繁体中文不能混用。
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          禁止出现中英文错别字。错别字包括错字和别字，两者均不能出现。
+        </para>
+        <itemizedlist spacing="compact">
+          <listitem>
+            <para>
+              错字是将某个字写错，这个错字是人为编造出来的，无任何意义。如将
+              MySQL 写成 MySOL。
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              别字是指写出的字与正确的字形近或音近，但意思却不同。如将
+              cooperate 写成 corporate，将 authorization 写成
+              authentication。
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+    <section xml:id="英文的大小写形式">
+      <title>英文的大小写形式</title>
+      <itemizedlist>
+        <listitem>
+          <para>
+            英文大小写形式不能写错。如不能写成 mysql 数据库，应该写成
+            MySQL
+            数据库，具体参考<link xlink:href="https://zh-style-guide.readthedocs.io/zh_CN/latest/名称与命名/名称使用.html#id2">名称使用</link>一节。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            当中文句子中夹有英文单词或词组时，无论该英文单词或词组位于中文句子的开头、中间还是末尾，<emphasis role="strong">普通单词、词组必须小写</emphasis>；<emphasis role="strong">专有名词等在英文中必须大写的单词或词组，保留其大写形式</emphasis>。
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                【示例一】change 和 transform 意义不同。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                【示例二】这个数据库有不错的 MySQL 兼容性。
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+        <listitem>
+          <para>
+            当中文句子中夹有完整的英文句子时，无论该英文句子位于中文句子的开头、中间还是末尾，<emphasis role="strong">其首字母均保留大写形式</emphasis>。
+          </para>
+          <itemizedlist spacing="compact">
+            <listitem>
+              <para>
+                【示例一】Follow your fear 是我的座右铭。
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                【示例二】他经常与人说“Never set a limit to yourself.”。
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </itemizedlist>
+    </section>
+  </section>
+</article>
